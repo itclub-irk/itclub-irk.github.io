@@ -23,6 +23,9 @@ jobs:
           hugo-version: '0.91.2'
           # extended: true
 
+      - name: help
+        run: hugo help new
+        
       - name: Build
         run: hugo --minify
 
@@ -32,4 +35,3 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
-          
