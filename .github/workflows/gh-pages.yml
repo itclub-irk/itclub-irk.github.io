@@ -23,9 +23,6 @@ jobs:
           hugo-version: '0.91.2'
           # extended: true
 
-      - name: help
-        run: hugo help new
-        
       - name: Build
         run: hugo --minify
 
