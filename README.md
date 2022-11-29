@@ -16,3 +16,6 @@ git submodule add https://github.com/razonyang/hugo-theme-bootstrap themes/hugo-
 
  git submodule add https://github.com/jsnjack/kraiklyn.git themes/kraiklyn
 ```
+
+https://themes.gohugo.io/themes/hugo-theme-stack/
+
