@@ -14,4 +14,5 @@ git clone https://github.com/vantagedesign/ace-documentation themes/ace-document
 
 git submodule add https://github.com/razonyang/hugo-theme-bootstrap themes/hugo-theme-bootstrap
 
+ git submodule add https://github.com/jsnjack/kraiklyn.git themes/kraiklyn
 ```
