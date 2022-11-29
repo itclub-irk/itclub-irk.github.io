@@ -1,5 +1,5 @@
 
-baseURL = 'https://itclub-irk.github.io/'
+baseURL = 'https://itclub-irk.ru/'
 languageCode = 'en-us'
 title = 'IT Club - Hugo Site'
 # theme = 'ananke'
