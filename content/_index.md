@@ -1,5 +1,6 @@
----
-title: "Index page"
----
++++
+title = "Индекс контента"
+draft = false
++++
 
-# Test of Index page
+# Корень сайта

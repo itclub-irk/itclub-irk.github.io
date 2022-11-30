@@ -1,21 +1,36 @@
-# itclub-irk.github.io
-Community website
+# IT Club Irkutsk - static website
+
+- <itclub-irk.ru>
 
 
+## GitHub notes
 
-```sh
-git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke themes/anank
-
-
-git clone https://github.com/vantagedesign/ace-documentation.git
-
-
-git clone https://github.com/vantagedesign/ace-documentation themes/ace-documentation
-
-git submodule add https://github.com/razonyang/hugo-theme-bootstrap themes/hugo-theme-bootstrap
-
- git submodule add https://github.com/jsnjack/kraiklyn.git themes/kraiklyn
 ```
 
-https://themes.gohugo.io/themes/hugo-theme-stack/
+brew install gh
 
+```
+
+
+## Zola notes
+
+```
+brew ionstall zola
+
+zola serve
+```
+
+
+```
+https://www.getzola.org/documentation/deployment/github-pages/
+
+https://www.getzola.org/themes/
+
+https://www.getzola.org/themes/adidoks/
+https://www.getzola.org/themes/anatole-zola/
+https://www.getzola.org/themes/anpu/
+https://www.getzola.org/themes/hephaestus/
+
+
+git submodule add https://github.com/getzola/after-dark.git themes/after-dark
+```

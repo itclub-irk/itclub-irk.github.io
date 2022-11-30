@@ -1,16 +1,63 @@
-# Node rules:
-## Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
-.grunt
+#
+#	 generic .gitignore
+#
 
-## Dependency directory
-## Commenting this out is preferred by some people, see
-## https://docs.npmjs.com/misc/faq#should-i-check-my-node_modules-folder-into-git
-node_modules
+## no hiddens in scm
+.*
 
-# Book build output
-_book
+## editor backups
+*~
+*.bak
+*.old
+*.swp
+*.tmp
 
-# eBook build output
-*.epub
-*.mobi
-*.pdf
+## binary output
+*.[ao]
+*.l[ao]
+*.so
+*.apk
+*.app
+*.bin
+*.dex
+*.dll
+*.dylib
+*.elf
+*.exe
+*.lib
+*.[gp]ch
+*.py[cod]
+*.obj
+*.out
+
+## java
+*.class
+*.[jerw]ar
+*.ser
+
+## other
+*.dump
+*.iml
+*.lock
+*.log
+*.test
+
+## build dirs
+/bin/
+/build/
+/classes/
+/target/
+/pkg/
+/out/
+/tmp/
+/node_modules/
+
+## allow 
+!.clj-kondo/
+!.gitignore
+!.dockerignore
+!.eslint*
+!.npmingore
+!yarn.lock
+
+#.
