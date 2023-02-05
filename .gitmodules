@@ -7,3 +7,12 @@
 [submodule "themes/kraiklyn"]
 	path = themes/kraiklyn
 	url = https://github.com/jsnjack/kraiklyn.git
+[submodule "themes/paige"]
+	path = themes/paige
+	url = https://github.com/willfaught/paige
+[submodule "themes/hugo-digital-garden-theme"]
+	path = themes/hugo-digital-garden-theme
+	url = https://github.com/paulmartins/hugo-digital-garden-theme.git
+[submodule "themes/hugo-book"]
+	path = themes/hugo-book
+	url = https://github.com/alex-shpak/hugo-book

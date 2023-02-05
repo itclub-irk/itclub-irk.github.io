@@ -1,12 +1,15 @@
 
 baseURL = 'https://itclub-irk.ru/'
-languageCode = 'en-us'
+languageCode = 'ru-ru'
 title = 'IT Club Irkutsk'
 
 timeZone = "Asia/Irkutsk"
 
-# theme = 'ananke'
-# theme = 'github-style'
-theme = 'ace-documentation'
+# theme = 'ace-documentation'
 # theme = 'hugo-theme-bootstrap'
-# theme = 'kraiklyn'
+
+# https://themes.gohugo.io/themes/hugo-book/
+theme = 'hugo-book'
+
+[params]
+  BookTheme = 'light'

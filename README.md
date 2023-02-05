@@ -3,10 +3,13 @@ Community website
 
 - <https://gohugo.io/getting-started/>
 
-
+- <https://themes.gohugo.io/themes/hugo-book/>
+ 
 ## Development
 
 ```sh
+git submodule add https://github.com/alex-shpak/hugo-book themes/hugo-book
+
 hugo server -D
 ```
 
