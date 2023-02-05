@@ -1,7 +1,14 @@
 # itclub-irk.github.io
 Community website
 
+- <https://gohugo.io/getting-started/>
 
+
+## Development
+
+```sh
+hugo server -D
+```
 
 ```sh
 git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke themes/anank

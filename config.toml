@@ -1,7 +1,10 @@
 
 baseURL = 'https://itclub-irk.ru/'
 languageCode = 'en-us'
-title = 'IT Club - Hugo Site'
+title = 'IT Club Irkutsk'
+
+timeZone = "Asia/Irkutsk"
+
 # theme = 'ananke'
 # theme = 'github-style'
 theme = 'ace-documentation'
