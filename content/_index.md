@@ -6,6 +6,10 @@ title: "Сообщество ИТ-шников"
 
 ![Logo](/img/itclub-irkutsk.jpg)
 
+- [org/about](org/about)
+- [org/maniffest](org/manifest)
+- [Участники](org/members)
+
 ```sh
 # code block
 call bash script > 1
