@@ -29,3 +29,6 @@ git submodule add https://github.com/razonyang/hugo-theme-bootstrap themes/hugo-
 
 https://themes.gohugo.io/themes/hugo-theme-stack/
 
+https://themes.gohugo.io/themes/doks/
+https://themes.gohugo.io/themes/hugo-hero-theme/
+
