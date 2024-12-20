@@ -25,6 +25,9 @@ Static site generators - <https://jamstack.org/generators/>
 
 Hugo themes:
 
+- <https://themes.gohugo.io>
+
+
 ```sh
 git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke themes/anank
 
@@ -36,7 +39,7 @@ git clone https://github.com/vantagedesign/ace-documentation themes/ace-document
 
 git submodule add https://github.com/razonyang/hugo-theme-bootstrap themes/hugo-theme-bootstrap
 
- git submodule add https://github.com/jsnjack/kraiklyn.git themes/kraiklyn
+git submodule add https://github.com/jsnjack/kraiklyn.git themes/kraiklyn
 ```
 
 <https://themes.gohugo.io/themes/hugo-theme-stack/>
