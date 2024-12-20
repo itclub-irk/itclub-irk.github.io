@@ -2,6 +2,14 @@
 
 Community website https://itclub-irk.ru
 
+## Структура сайта
+
+?TBD?
+
+## Как вносить изменения
+
+?TBD?
+
 ## Notes
 
 GitHub Pages action
