@@ -1,0 +1,12 @@
+
+baseURL = 'https://itclub-irk.ru/'
+# languageCode = 'en-us'
+languageCode = 'ru-ru'
+title = 'IT Club Irk'
+theme = 'capsule'
+
+# [params]
+#   subtitle = 'The Best Widgets on Earth'
+#   [params.contact]
+#     email = 'info@example.org'
+#     phone = '+1 202-555-1212'

@@ -1,4 +1,4 @@
-# ITClub Irk
+# IT Club Irk
 
 Community website https://itclub-irk.ru
 
@@ -6,11 +6,20 @@ Community website https://itclub-irk.ru
 
 ?TBD?
 
+- О комьюнити
+- Новости
+- Проекты
+...
+
+
 ## Как вносить изменения
 
 ?TBD?
 
+
 ## Notes
+
+[Hugo docs](https://gohugo.io/documentation/)
 
 GitHub Pages action
 
@@ -26,21 +35,18 @@ Static site generators - <https://jamstack.org/generators/>
 Hugo themes:
 
 - <https://themes.gohugo.io>
+- <https://themes.gohugo.io/themes/capsule/
 
 
 ```sh
-git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke themes/anank
+git submodule add https://github.com/sudorook/capsule themes/capsule
 
-
-git clone https://github.com/vantagedesign/ace-documentation.git
-
-
-git clone https://github.com/vantagedesign/ace-documentation themes/ace-documentation
-
-git submodule add https://github.com/razonyang/hugo-theme-bootstrap themes/hugo-theme-bootstrap
-
-git submodule add https://github.com/jsnjack/kraiklyn.git themes/kraiklyn
+# git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke themes/anank
+# git submodule add git@github.com:MeiK2333/github-style.git themes/github-style
+# git submodule add https://github.com/razonyang/hugo-theme-bootstrap themes/hugo-theme-bootstrap
+# git submodule add https://github.com/jsnjack/kraiklyn.git themes/kraiklyn
 ```
 
+TODO:
 <https://themes.gohugo.io/themes/hugo-theme-stack/>
 

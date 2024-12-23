@@ -1,3 +1,15 @@
 [submodule "themes/hextra"]
 	path = themes/hextra
 	url = https://github.com/imfing/hextra.git
+[submodule "themes/hugo-clarity"]
+	path = themes/hugo-clarity
+	url = https://github.com/chipzoller/hugo-clarity
+[submodule "themes/github-style"]
+	path = themes/github-style
+	url = git@github.com:MeiK2333/github-style.git
+[submodule "themes/hulga"]
+	path = themes/hulga
+	url = https://github.com/wlh320/hugo-theme-hulga.git
+[submodule "themes/capsule"]
+	path = themes/capsule
+	url = https://github.com/sudorook/capsule
