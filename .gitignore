@@ -15,5 +15,5 @@ _book
 *.mobi
 *.pdf
 
-public/
-resources/
+# public/
+# resources/
