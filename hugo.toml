@@ -1,6 +1,7 @@
 
+# NOTE: check .github/workflows/hugo.yaml
 baseURL = 'https://itclub-irk.ru/'
-# languageCode = 'en-us'
+
 languageCode = 'ru-ru'
 title = 'IT Club Irk'
 theme = 'capsule'

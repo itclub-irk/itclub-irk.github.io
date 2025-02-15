@@ -26,7 +26,6 @@ defaults:
   run:
     shell: bash
 
-
 jobs:
   # Build job
   build:
