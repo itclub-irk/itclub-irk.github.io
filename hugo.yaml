@@ -1,0 +1,27 @@
+
+title: 'IT Club Irkutsk'
+baseURL: 'https://itclub-irk.ru/'
+# NOTE: check .github/workflows/hugo.yaml
+
+languageCode: 'ru-ru'
+theme: PaperMod
+
+params:
+  DateFormat: "January 2, 2006"
+
+menu:
+  main:
+    - identifier: events
+      name: События
+      url: /events
+      weight: 10
+    - identifier: resources
+      name: Ресурсы
+      url: /resources
+      weight: 20
+    - identifier: rules
+      name: Правила
+      url: /rules
+      wieght: 30
+
+    
