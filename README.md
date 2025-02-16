@@ -8,6 +8,7 @@ Community website https://itclub-irk.ru
 
 - О комьюнити
 - Новости
+- Полезные ссылки (индекс по хэштегам)
 - Проекты
 ...
 
@@ -35,7 +36,9 @@ Static site generators - <https://jamstack.org/generators/>
 Hugo themes:
 
 - <https://themes.gohugo.io>
-- <https://themes.gohugo.io/themes/capsule/
+- <https://github.com/adityatelange/hugo-PaperMod>
+- <https://themes.gohugo.io/themes/capsule/>
+- <https://lotusdocs.dev>
 
 
 ```sh

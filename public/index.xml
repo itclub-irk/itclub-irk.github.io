@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Index page on IT Club Irkutsk</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Index page on IT Club Irkutsk</description>
+    <generator>Hugo -- 0.143.1</generator>
+    <language>ru-ru</language>
+    <lastBuildDate>Sat, 15 Feb 2025 17:59:39 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Sat, 15 Feb 2025 17:59:39 +0800</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;item 1&lt;/li&gt;
+&lt;li&gt;item 2&lt;/li&gt;
+&lt;li&gt;item 3&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;ordered&lt;/li&gt;
+&lt;li&gt;ordered&lt;/li&gt;
+&lt;li&gt;orderred&lt;/li&gt;
+&lt;/ol&gt;
+&lt;dl&gt;
+&lt;dt&gt;Dictionary&lt;/dt&gt;
+&lt;dd&gt;term long description&lt;/dd&gt;
+&lt;dd&gt;term2 term 2 description&lt;/dd&gt;
+&lt;/dl&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/community/resources/</link>
+      <pubDate>Sat, 15 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/community/resources/</guid>
+      <description>&lt;h1 id=&#34;ресурсы&#34;&gt;Ресурсы&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;resources&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/community/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/community/about/</guid>
+      <description>&lt;p&gt;about&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/community/rules1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/community/rules1/</guid>
+      <description>&lt;h1 id=&#34;правила&#34;&gt;Правила&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;rules&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/events/microfest/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/events/microfest/</guid>
+      <description>&lt;p&gt;microfest&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
