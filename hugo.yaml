@@ -3,25 +3,47 @@ title: 'IT Club Irkutsk'
 baseURL: 'https://itclub-irk.ru/'
 # NOTE: check .github/workflows/hugo.yaml
 
+defaultContentLanguage: "ru"
+
 languageCode: 'ru-ru'
 theme: PaperMod
 
+markup:
+  highlight:
+    # anchorLineNos: true
+    codeFences: true
+    guessSyntax: true
+    lineNos: true
+    # noClasses: false
+    style: monokai
+
 params:
-  DateFormat: "January 2, 2006"
+  DateFormat: "2 January 2006"
+  ShowBreadCrumbs: true
+#  ShowPostNavLinks: true
+#  ShowCodeCopyButtons: true
 
 menu:
   main:
+    - idehtifier: home
+      name: "Главная"
+      url: "/"
+      weight: 5
+    - identifier: news
+      name: Новости
+      url: /news
+      weight: 10
     - identifier: events
       name: События
       url: /events
-      weight: 10
+      weight: 20
     - identifier: resources
       name: Ресурсы
       url: /resources
-      weight: 20
+      weight: 30
     - identifier: rules
       name: Правила
       url: /rules
-      wieght: 30
+      wieght: 40
 
     
