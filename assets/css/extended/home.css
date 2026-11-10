@@ -55,8 +55,22 @@
 }
 
 .home-card .t {
+    display: flex;
+    align-items: center;
+    gap: 6px;
     font-weight: 700;
     font-size: 17px;
+}
+
+/* Иконка Telegram на карточках со ссылкой на t.me */
+.home-card .tg {
+    display: inline-flex;
+    color: #26a5e4;
+}
+
+.home-card .tg svg {
+    width: 20px;
+    height: 20px;
 }
 
 .home-card .d,

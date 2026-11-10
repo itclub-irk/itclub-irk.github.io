@@ -22,7 +22,9 @@
   <nav class="home-cards" aria-label="Ссылки сообщества">
     {{- range . }}
     <a class="home-card" href="{{ .url }}">
-      <span class="t">{{ with .icon }}{{ . }} {{ end }}{{ .title }}</span>
+      <span class="t">
+        {{- if hasPrefix .url "https://t.me/" }}<span class="tg" aria-hidden="true">{{ partial "svg.html" (dict "name" "telegram") }}</span>{{ end }}
+        {{- with .icon }}{{ . }} {{ end }}{{ .title }}</span>
       {{- with .desc }}<span class="d">{{ . }}</span>{{ end }}
     </a>
     {{- end }}
