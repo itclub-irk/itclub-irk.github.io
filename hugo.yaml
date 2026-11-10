@@ -22,6 +22,24 @@ params:
   ShowBreadCrumbs: true
 #  ShowPostNavLinks: true
 #  ShowCodeCopyButtons: true
+  # Карточки-ссылки на главной (layouts/index.html)
+  homeLinks:
+    - title: "Основной чат"
+      icon: "💬"
+      desc: "Общение, вопросы, новости участников"
+      url: "https://t.me/itclub_irk"
+    - title: "Анонсы"
+      icon: "📣"
+      desc: "Встречи, митапы, фестивали"
+      url: "https://t.me/itclub_irk/11338"
+    - title: "ИИ-бот"
+      icon: "🤖"
+      desc: "Тема для общения с ботом сообщества"
+      url: "https://t.me/itclub_irk/63229"
+    - title: "Обсуждение сообщества"
+      icon: "🗳"
+      desc: "Правила, идеи, организационные вопросы"
+      url: "https://t.me/itclub_irk/9"
 
 menu:
   main:
