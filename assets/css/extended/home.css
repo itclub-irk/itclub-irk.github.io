@@ -59,6 +59,25 @@
     font-size: 17px;
 }
 
+/* Иконка Telegram в правом нижнем углу карточек со ссылкой на t.me */
+.home-card {
+    position: relative;
+    padding-right: 46px;
+}
+
+.home-card .tg {
+    position: absolute;
+    right: 14px;
+    bottom: 12px;
+    display: inline-flex;
+    color: #26a5e4;
+}
+
+.home-card .tg svg {
+    width: 20px;
+    height: 20px;
+}
+
 .home-card .d,
 .home-event .d {
     color: var(--secondary);

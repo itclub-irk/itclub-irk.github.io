@@ -24,6 +24,9 @@
     <a class="home-card" href="{{ .url }}">
       <span class="t">{{ with .icon }}{{ . }} {{ end }}{{ .title }}</span>
       {{- with .desc }}<span class="d">{{ . }}</span>{{ end }}
+      {{- if hasPrefix .url "https://t.me/" }}
+      <span class="tg" aria-hidden="true">{{ partial "svg.html" (dict "name" "telegram") }}</span>
+      {{- end }}
     </a>
     {{- end }}
   </nav>
