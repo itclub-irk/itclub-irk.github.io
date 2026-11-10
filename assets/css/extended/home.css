@@ -1,0 +1,111 @@
+/* Главная страница (layouts/index.html). Цвета — переменные PaperMod, работают в тёмной теме. */
+
+.home-hero {
+    display: grid;
+    grid-template-columns: 140px 1fr;
+    gap: 26px;
+    align-items: center;
+    padding: 18px 0 6px;
+}
+
+.home-hero img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+}
+
+.home-hero h1 {
+    font-size: 30px;
+    line-height: 1.2;
+    margin: 0 0 8px;
+}
+
+.home-hero p {
+    margin: 0;
+    color: var(--secondary);
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.home-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px;
+    margin: 26px 0;
+}
+
+.home-card,
+.home-event {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    border-radius: var(--radius);
+    transition: transform 0.1s;
+}
+
+.home-card {
+    padding: 16px 18px;
+    background: var(--entry);
+    border: 1px solid var(--border);
+}
+
+.home-card:hover,
+.home-event:hover {
+    transform: scale(0.985);
+}
+
+.home-card .t {
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.home-card .d,
+.home-event .d {
+    color: var(--secondary);
+    font-size: 14px;
+}
+
+.home-event {
+    padding: 18px 20px;
+    background: var(--entry);
+    border: 1px solid var(--border);
+    border-left: 4px solid var(--primary);
+}
+
+.home-event .lbl {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--secondary);
+}
+
+.home-event .t {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.home-text {
+    margin-top: 26px;
+    padding-top: 6px;
+    border-top: 1px solid var(--border);
+}
+
+@media screen and (max-width: 600px) {
+    .home-hero {
+        grid-template-columns: 1fr;
+        gap: 14px;
+    }
+
+    .home-hero img {
+        width: 96px;
+        height: 96px;
+    }
+
+    .home-hero h1 {
+        font-size: 26px;
+    }
+
+    .home-cards {
+        grid-template-columns: 1fr;
+    }
+}

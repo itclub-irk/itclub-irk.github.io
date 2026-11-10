@@ -1,41 +1,55 @@
 {{- define "main" }}
+{{- /*
+  Главная: hero (front matter `hero` в content/_index.md), карточки-ссылки
+  (site.Params.homeLinks), блок последнего/ближайшего события (самая свежая страница
+  раздела events; дата/место — eventDate/place в front matter), затем текст страницы.
+*/}}
+<article class="post-single home">
 
-<article class="post-single">
-  <header class="post-header">
-
+  {{- with .Params.hero }}
+  <header class="home-hero">
+    {{- with .image }}
+    <img src="{{ . | relURL }}" alt="{{ site.Title }}" width="140" height="140">
+    {{- end }}
+    <div>
+      <h1>{{ .title }}</h1>
+      {{- with .lede }}<p>{{ . }}</p>{{ end }}
+    </div>
   </header>
-  {{- $isHidden := (.Param "cover.hiddenInSingle") | default (.Param "cover.hidden") | default false }}
-  {{- partial "cover.html" (dict "cxt" . "IsSingle" true "isHidden" $isHidden) }}
-  {{- if (.Param "ShowToc") }}
-  {{- partial "toc.html" . }}
+  {{- end }}
+
+  {{- with site.Params.homeLinks }}
+  <nav class="home-cards" aria-label="Ссылки сообщества">
+    {{- range . }}
+    <a class="home-card" href="{{ .url }}">
+      <span class="t">{{ with .icon }}{{ . }} {{ end }}{{ .title }}</span>
+      {{- with .desc }}<span class="d">{{ . }}</span>{{ end }}
+    </a>
+    {{- end }}
+  </nav>
+  {{- end }}
+
+  {{- $events := where site.RegularPages "Section" "events" }}
+  {{- range first 1 $events.ByDate.Reverse }}
+  {{- $when := .Date }}
+  {{- with .Params.eventDate }}{{ $when = time.AsTime . }}{{ end }}
+  <a class="home-event" href="{{ .RelPermalink }}">
+    <span class="lbl">{{ if $when.After now }}Ближайшее событие{{ else }}Последнее событие{{ end }}</span>
+    <span class="t">{{ .LinkTitle }}</span>
+    <span class="d">
+      {{- if .Params.eventDate }}{{ time.Format "Monday, 2 January, 15:04" $when | strings.FirstUpper }}
+      {{- else }}{{ time.Format "2 January 2006" $when }}{{ end }}
+      {{- with .Params.place }} · {{ . }}{{ end }} · подробнее →</span>
+  </a>
   {{- end }}
 
   {{- if .Content }}
-  <div class="post-content">
+  <div class="post-content home-text">
     {{- if not (.Param "disableAnchoredHeadings") }}
     {{- partial "anchored_headings.html" .Content -}}
     {{- else }}{{ .Content }}{{ end }}
   </div>
   {{- end }}
 
-  <footer class="post-footer">
-    {{- $tags := .Language.Params.Taxonomies.tag | default "tags" }}
-    <ul class="post-tags">
-      {{- range ($.GetTerms $tags) }}
-      <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
-      {{- end }}
-    </ul>
-    {{- if (.Param "ShowPostNavLinks") }}
-    {{- partial "post_nav_links.html" . }}
-    {{- end }}
-    {{- if (and site.Params.ShowShareButtons (ne .Params.disableShare true)) }}
-    {{- partial "share_icons.html" . -}}
-    {{- end }}
-  </footer>
-
-  {{- if (.Param "comments") }}
-  {{- partial "comments.html" . }}
-  {{- end }}
 </article>
-
 {{- end }}{{/* end main */}}
