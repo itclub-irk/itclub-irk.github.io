@@ -55,15 +55,20 @@
 }
 
 .home-card .t {
-    display: flex;
-    align-items: center;
-    gap: 6px;
     font-weight: 700;
     font-size: 17px;
 }
 
-/* Иконка Telegram на карточках со ссылкой на t.me */
+/* Иконка Telegram в правом нижнем углу карточек со ссылкой на t.me */
+.home-card {
+    position: relative;
+    padding-right: 46px;
+}
+
 .home-card .tg {
+    position: absolute;
+    right: 14px;
+    bottom: 12px;
     display: inline-flex;
     color: #26a5e4;
 }
