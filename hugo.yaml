@@ -25,14 +25,10 @@ params:
 
 menu:
   main:
-    - idehtifier: home
+    - identifier: home
       name: "Главная"
       url: "/"
       weight: 5
-    - identifier: news
-      name: Новости
-      url: /news
-      weight: 10
     - identifier: events
       name: События
       url: /events
@@ -44,6 +40,6 @@ menu:
     - identifier: rules
       name: Правила
       url: /rules
-      wieght: 40
+      weight: 40
 
     
